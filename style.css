@@ -1,4 +1,5 @@
 header{
+    background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
 }
@@ -9,6 +10,7 @@ ul li{
     margin: 0px 20px;
 }
 main{
+    background-color: coral;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -80,4 +82,10 @@ span{
     span{
         display: block;
     }
+}
+.titulo__animacion:hover:after{
+    content: "😎🤠🐃";
+}
+.publicidad1:hover{
+    transform: scale(0.4);
 }
